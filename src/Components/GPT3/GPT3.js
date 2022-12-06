@@ -1,9 +1,9 @@
 import React from 'react';
-import Feature from '../Features/Feature';
+import Feature from '../Feature/Feature.js';
 
 import './GPT3.css'
 
-export default function GPT3(){
+export default function GPT3(props){
     return (
         <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
 
@@ -21,6 +21,6 @@ export default function GPT3(){
       <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
       <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
     </div>
-    
+
   </div>
     )}
